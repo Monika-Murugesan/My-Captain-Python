@@ -1,0 +1,3 @@
+radius=int(input("ENTER THE VALUE OF THE RADIUS: "))
+area=(radius**2)*3.14
+print("The area of the circle with radius {0} is {1}".format(radius,area))
