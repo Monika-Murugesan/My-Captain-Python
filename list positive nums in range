@@ -1,0 +1,13 @@
+n=int(input("Enter length of the list:"))
+i=0
+l=[]
+num=0
+l1=[]
+for i in range(n):
+    num=int(input("Enter no:"))
+    l.append(num)
+print(l)
+for i in (l):
+    if i >0:
+        l1.append(i)
+print(l1)
