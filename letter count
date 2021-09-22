@@ -1,0 +1,11 @@
+string=input( "Enter a string:")
+def frequency(s1):
+    D={}
+    for n in s1:
+        keys=D.keys()
+        if n in keys:
+            D[n]+=1
+        else:
+            D[n]=1
+    return D
+print(frequency(string))
